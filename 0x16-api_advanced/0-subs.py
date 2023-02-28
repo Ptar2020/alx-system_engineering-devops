@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-""" Exporting csv files"""
+""" Exporting csv file"""
 import json
 import requests
 import sys
 
 
 def number_of_subscribers(subreddit):
-    """Read reddit API and return number subscribers """
+    """Read reddit API and return number subscribers"""
     username = 'ledbag123'
     password = 'Reddit72'
     user_pass_dict = {'user': username, 'passwd': password, 'api_type': 'json'}
